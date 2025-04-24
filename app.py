@@ -12,7 +12,7 @@ def encrypt_data(data, key):
 
 st.title("Secure Data Encryption")
 key = generate_key()
-data = st.text_input("data")
+data = st.text_input("Data")
 
 if st.button("Encrypt"):
     encrypted_data = encrypt_data(data, key)
